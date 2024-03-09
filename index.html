@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hortensia</title>
+</head>
+<body>
+    <h1>Hortensia</h1>
+    <p>Bem vindo ao nosso site! Aqui você pode procurar e achar uma horta comunitária <br>
+    que esteja perto de você ou da sua cidade!</p>
+    <p>Para facilitar a procura das hortas,<br>
+    digite seu estado aqui!</p>
+    <!--aqui é onde o usuário vai colocar seu estado e quando clicar no botão "enviar", ele vai ser levado para um lugar no mapa perto dele-->
+        <form >
+            <label for="fname">Seu Estado:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="button" id="acharMap" value="Enviar">
+        </form>
+    <!--aqui eu vou fazer a lista dos estados e o número de hortas comunitárias que eles tem! -->
+    <table border="1" width="500">
+        <tr>
+            <th>Estados</th>
+            <th>Número de hortas</th>
+        </tr>
+<!--o th é a parte que indica o que se trata a tabela-->
+        <thead>
+            <tbody>
+                <td>Bahia:</td>
+                <td>2948</td>
+        </thead>
+<!--o td se usa para colocar o nome do estado e a quantidade de horta.-->
+    </table>
+</body>
+</html>
