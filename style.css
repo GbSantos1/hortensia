@@ -1,0 +1,68 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap);
+
+body{
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    justify-content: flex-end;
+}
+
+.opcoes, .comunidade{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.opcoes{
+    font-size: 14px;
+}
+
+.horta1, .horta2, .horta3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: start;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
